@@ -1,7 +1,7 @@
 #!/bin/bash
 modes="  start-dev\n  stop-dev\n  interactive-dev\n  check-syntax\n"
 mode=$1
-project_name="code"
+project_name="*****"
 
 if [ "$project_name" == "*****" ]; then
     echo "Please Update the Project Name in run.sh"
